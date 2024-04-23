@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # AWS S3 configuration
 S3_BUCKET_NAME = 'YOUR-BUCKET-NAME'
-AWS_ACCESS_KEY_ID = 'YOUR-ACCESS KEY-D'
+AWS_ACCESS_KEY_ID = 'YOUR-ACCESS KEY-ID'
 AWS_SECRET_ACCESS_KEY = 'YOUR-SECRET KEY'
-AWS_REGION = 'eu-north-1'
+AWS_REGION = 'YOUR-REGION'
 
 # Configure boto3 to use AWS
 s3 = boto3.client(
